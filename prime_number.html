@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>prime number code in java script</title>
+</head>
+<body>
+
+    <script>
+var num =parseInt(prompt("please enter a number"));
+var isPrime =true;
+
+for (i=2; i<num;i++)
+{
+
+   var result=num%i;
+   if(result==0){
+       console.log("number is not a prime number"+num+"i"+i);
+       isPrime=false;
+       break;
+
+   }
+  
+}
+if(isPrime)
+{
+    console.log("this number is prime"+num);
+}
+
+    </script>
+</body>
+
+
+</html>
